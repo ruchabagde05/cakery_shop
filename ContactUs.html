@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ContactUs</title>
+  <!-- CSS Styele -->
+  <link rel="stylesheet" href="Style2.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Google FOnts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header Section -->
+  <section id="header">
+    <img class="group" src="group4.jpeg" alt="ContactUs">
+    <div class="contact">ContactUs</div>
+  </section>
+
+  <!-- Top Section -->
+  <section id="main">
+    <h1>Get In Touch___</h1>
+    <p class="text">Do you have anything in your mind to let us know? Kindly don't delay to connect to us by means of our
+    contact form.</p>
+  </section>
+
+  <!-- Contact From Section -->
+  <section id="form">
+    <form>
+      <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">Contact Form</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="First Name" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Last name" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput">Subject</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Subject">
+          </div>
+          <div class="mb-6">
+            <label for="exampleFormControlTextarea1">Meassage</label>
+            <textarea class="form-control" placeholder="Your Meassage" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <br><br>
+          <button type="button" class="btn btn-primary btn-lg" onclick="myFunction()">Submit</button>
+        </form>
+      </div>
+    </form>
+  </section>
+
+  <!-- Info Section -->
+  <section id="info">
+    <p>
+    <h3> Address :</h3>
+    <p> ShivajiNagar, Pune </p>
+
+    <h3>Phone :</h3>
+    <p>01372 466 790</p>
+
+    <h3>Email : </h3>
+    <p> info@cakebakery.com</p>
+    <h3>Opening Hours :</h3>
+    <p>8:00 AM – 10:00 PM<br>
+      Monday – Sunday
+    </p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <i class="fab fa-twitter logo"></i><i class="fab fa-facebook-f logo"></i><i class="fab fa-instagram logo"></i><i class="fas fa-envelope logo"></i>
+    <p>
+      <center>© Copyright 2021 Cakery</center>
+    </p>
+ </footer>
+
+  <!-- Js Script -->
+  <script>
+    function myFunction() {
+      alert("Thanks For given your response");
+    }
+  </script>
+
+</body>
+
+</html>
